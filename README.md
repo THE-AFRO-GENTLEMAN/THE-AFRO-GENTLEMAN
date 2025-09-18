@@ -1,512 +1,234 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazing GitHub Profile</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<div align="center">
 
-        body {
-            font-family: 'Space Grotesk', sans-serif;
-            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
-            color: #e6e6ff;
-            line-height: 1.6;
-            padding: 2rem;
-            min-height: 100vh;
-        }
+<!-- Animated Header with Gradient Text -->
+<h1>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&size=45&duration=3000&pause=1000&color=6577EC&background=00000000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+THE-AFRO-GENTLEMAN;Full-Stack+Developer;UI%2FUX+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+</h1>
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+<!-- Profile Image with Glow Effect -->
+<img width="200" height="200" src="https://github.com/THE-AFRO-GENTLEMAN.png" alt="THE-AFRO-GENTLEMAN" style="border-radius: 50%; border: 4px solid #6577ec; box-shadow: 0 0 30px rgba(101, 119, 236, 0.6);"/>
 
-        .github-profile {
-            background: rgba(13, 17, 28, 0.8);
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            overflow: hidden;
-            border: 1px solid rgba(101, 119, 236, 0.3);
-            padding: 2rem;
-            position: relative;
-        }
+<!-- Animated Tagline -->
+<h3 style="color: #aab2ff; font-family: 'Space Grotesk', sans-serif;">
+  🚀 Crafting Digital Experiences That Users Love
+</h3>
 
-        .profile-header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 2rem 0;
-            position: relative;
-            z-index: 2;
-        }
+<!-- Social Links with Hover Effect -->
+<p>
+  <a href="https://github.com/THE-AFRO-GENTLEMAN" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=6577ec" alt="GitHub"/>
+  </a>
+  <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=8a64d0" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/YOUR_HANDLE" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&color=6577ec" alt="Twitter"/>
+  </a>
+  <a href="mailto:your.email@domain.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=8a64d0" alt="Email"/>
+  </a>
+</p>
 
-        .profile-image {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 4px solid #6577ec;
-            box-shadow: 0 0 30px rgba(101, 119, 236, 0.6);
-            margin-bottom: 1.5rem;
-            overflow: hidden;
-            position: relative;
-            transition: transform 0.5s ease;
-        }
+<!-- Quote Section -->
+<blockquote style="background: rgba(138, 100, 208, 0.1); border-left: 4px solid #8a64d0; padding: 1rem; margin: 2rem 0; border-radius: 8px;">
+  <p><em>"First, solve the problem. Then, write the code."</em></p>
+</blockquote>
 
-        .profile-image:hover {
-            transform: scale(1.05);
-        }
+</div>
 
-        .profile-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+---
 
-        .profile-name {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(90deg, #8a64d0, #6577ec, #4d8dea);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0 5px 15px rgba(101, 119, 236, 0.4);
-        }
+## 🧠 **About Me**
 
-        .profile-tagline {
-            font-size: 1.5rem;
-            color: #aab2ff;
-            margin-bottom: 1.5rem;
-            font-weight: 400;
-        }
+<div style="background: rgba(18, 22, 40, 0.6); border-radius: 15px; padding: 1.5rem; border: 1px solid rgba(101, 119, 236, 0.2);">
 
-        .social-links {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
+```typescript
+const developer = {
+  name: "THE-AFRO-GENTLEMAN",
+  role: "Full-Stack Developer & UI/UX Enthusiast",
+  location: "🌍 Earth",
+  experience: "5+ years",
+  
+  currentFocus: [
+    "Building scalable web applications",
+    "Project management solutions", 
+    "Open source contributions",
+    "Clean code architecture"
+  ],
+  
+  lifePhilosophy: "Write code that humans can read and maintain ✨"
+};
+```
 
-        .social-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: rgba(101, 119, 236, 0.2);
-            color: #aab2ff;
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
+Hello! I'm a passionate developer who specializes in creating digital experiences that users love. I believe in writing **clean, efficient code** and building applications that make a positive impact.
 
-        .social-link:hover {
-            background: #6577ec;
-            color: #fff;
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(101, 119, 236, 0.4);
-        }
+When I'm not coding, you can find me contributing to open source, exploring new technologies, or sharing knowledge with the developer community.
 
-        .profile-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
+</div>
 
-        @media (max-width: 900px) {
-            .profile-content {
-                grid-template-columns: 1fr;
-            }
-        }
+---
 
-        .card {
-            background: rgba(18, 22, 40, 0.6);
-            border-radius: 15px;
-            padding: 1.5rem;
-            border: 1px solid rgba(101, 119, 236, 0.2);
-            transition: transform 0.3s ease;
-        }
+## 🏆 **Core Achievements**
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-        }
+<div align="center">
 
-        .card-title {
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            color: #8a64d0;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
+| 🎯 **Achievement** | 📊 **Impact** |
+|:---|:---|
+| **🚀 PM Solutions** | Built comprehensive project management platform used by development teams |
+| **🎨 Design Systems** | Created minimal, reusable UI components and design patterns |
+| **⚡ Open Source** | Maintained multiple repositories with active community engagement |
+| **🔧 Mini Projects** | Experimented with cutting-edge technologies and shared learnings |
+| **🌟 Community** | Always happy to mentor, collaborate, and learn from others |
 
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
+</div>
 
-        .skill {
-            background: rgba(101, 119, 236, 0.2);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
+---
 
-        .skill:hover {
-            background: #6577ec;
-            transform: scale(1.05);
-        }
+## 🔥 **Featured Projects**
 
-        .achievement {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            background: rgba(101, 119, 236, 0.1);
-            border-radius: 10px;
-            transition: all 0.3s ease;
-        }
+<div align="center">
 
-        .achievement:hover {
-            background: rgba(101, 119, 236, 0.2);
-            transform: translateX(5px);
-        }
+<table>
+<tr>
+<td width="50%">
 
-        .achievement-icon {
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(138, 100, 208, 0.2);
-            border-radius: 50%;
-            font-size: 1.5rem;
-            color: #8a64d0;
-        }
+### 🎯 [PM-Frontend](https://github.com/Evoli-management/PM-frontend)
+**Modern Project Management Interface**
+- ⚛️ React + TypeScript
+- 🎨 Tailwind CSS
+- 📱 Responsive Design
+- 🔄 Real-time Updates
 
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-        }
+![Stars](https://img.shields.io/github/stars/Evoli-management/PM-frontend?style=social)
 
-        .stat {
-            text-align: center;
-            padding: 1.5rem;
-            background: rgba(18, 22, 40, 0.6);
-            border-radius: 15px;
-            transition: all 0.3s ease;
-        }
+</td>
+<td width="50%">
 
-        .stat:hover {
-            background: rgba(101, 119, 236, 0.2);
-            transform: scale(1.03);
-        }
+### ⚙️ [PM-Backend](https://github.com/Evoli-management/PM-backend)
+**Robust Backend Services**
+- 🟢 Node.js + Express
+- 🗄️ PostgreSQL
+- 🔐 Authentication & Authorization
+- 📊 API Analytics
 
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #6577ec;
-            margin-bottom: 0.5rem;
-        }
+![Stars](https://img.shields.io/github/stars/Evoli-management/PM-backend?style=social)
 
-        .stat-label {
-            color: #aab2ff;
-            font-size: 1rem;
-        }
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-        .highlight {
-            color: #6577ec;
-            font-weight: 500;
-        }
+### 🎨 [PM-Design-Min-01](https://github.com/THE-AFRO-GENTLEMAN/PM-Design-Min-01)
+**Minimal Design System**
+- 🎭 Clean UI Components
+- 📐 Design Tokens
+- 🎯 User-Centered Design
+- 🖼️ Figma Integration
 
-        .quote {
-            font-style: italic;
-            text-align: center;
-            margin: 2rem 0;
-            padding: 1.5rem;
-            border-radius: 15px;
-            background: rgba(138, 100, 208, 0.1);
-            border-left: 4px solid #8a64d0;
-        }
+</td>
+<td width="50%">
 
-        .footer {
-            text-align: center;
-            margin-top: 3rem;
-            color: #aab2ff;
-            font-size: 0.9rem;
-        }
+### 🔬 [Mini-Projects](https://github.com/THE-AFRO-GENTLEMAN/Mini-Projects)
+**Experimental Playground**
+- 🧪 Technology Exploration
+- 📚 Learning Projects
+- 💡 Creative Solutions
+- 🔄 Continuous Learning
 
-        .badge {
-            display: inline-block;
-            padding: 0.3rem 0.8rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin: 0.3rem;
-        }
+</td>
+</tr>
+</table>
 
-        .badge-primary {
-            background: rgba(101, 119, 236, 0.2);
-            color: #6577ec;
-        }
+</div>
 
-        .badge-secondary {
-            background: rgba(138, 100, 208, 0.2);
-            color: #8a64d0;
-        }
+---
 
-        .pulse {
-            animation: pulse 2s infinite;
-        }
+## 💻 **Tech Stack & Skills**
 
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(101, 119, 236, 0.7); }
-            70% { box-shadow: 0 0 0 15px rgba(101, 119, 236, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(101, 119, 236, 0); }
-        }
+<div align="center">
 
-        .typing-demo {
-            width: max-content;
-            animation: typing 3s steps(30), blink .5s step-end infinite alternate;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid;
-            margin: 0 auto;
-            font-family: 'JetBrains Mono', monospace;
-            color: #aab2ff;
-            margin-bottom: 2rem;
-        }
+### **Languages**
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-        @keyframes typing {
-            from { width: 0 }
-        }
+### **Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-        @keyframes blink {
-            50% { border-color: transparent }
-        }
+### **Backend**
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-        .glow {
-            text-shadow: 0 0 10px rgba(101, 119, 236, 0.7);
-        }
+### **Tools & Platforms**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-        .particles {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            overflow: hidden;
-        }
+</div>
 
-        .particle {
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(101, 119, 236, 0.3);
-            animation: float 15s infinite linear;
-        }
+---
 
-        @keyframes float {
-            0% { transform: translateY(0) translateX(0) rotate(0deg); }
-            100% { transform: translateY(-1000px) translateX(100px) rotate(360deg); }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="github-profile">
-            <!-- Animated background particles -->
-            <div class="particles" id="particles"></div>
-            
-            <div class="profile-header">
-                <div class="profile-image pulse">
-                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Profile Picture">
-                </div>
-                <h1 class="profile-name">Alex Morgan</h1>
-                <p class="profile-tagline">Full-Stack Developer & UI/UX Enthusiast</p>
-                
-                <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-dev"></i></a>
-                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
-                </div>
-                
-                <div class="typing-demo">
-                    npm create amazing-profile@latest
-                </div>
-            </div>
-            
-            <div class="quote">
-                <p>"First, solve the problem. Then, write the code." - John Johnson</p>
-            </div>
-            
-            <div class="profile-content">
-                <div class="card">
-                    <h2 class="card-title"><i class="fas fa-user"></i> About Me</h2>
-                    <p>Hello! I'm Alex, a passionate full-stack developer with over 5 years of experience creating digital experiences that users love.</p>
-                    <p>I specialize in <span class="highlight">React, Node.js, Python, and Cloud Architecture</span>. When I'm not coding, you can find me contributing to open source, writing tech blogs, or hiking in the mountains.</p>
-                    <p>I believe in writing clean, efficient code and creating applications that make a positive impact.</p>
-                </div>
-                
-                <div class="card">
-                    <h2 class="card-title"><i class="fas fa-rocket"></i> Achievements</h2>
-                    
-                    <div class="achievement">
-                        <div class="achievement-icon">
-                            <i class="fas fa-trophy"></i>
-                        </div>
-                        <div>
-                            <h3>GitHub Star</h3>
-                            <p>Awarded GitHub Star for open source contributions</p>
-                        </div>
-                    </div>
-                    
-                    <div class="achievement">
-                        <div class="achievement-icon">
-                            <i class="fas fa-medal"></i>
-                        </div>
-                        <div>
-                            <h3>Hackathon Winner</h3>
-                            <p>1st place at CodeFest 2022 with a real-time collaboration tool</p>
-                        </div>
-                    </div>
-                    
-                    <div class="achievement">
-                        <div class="achievement-icon">
-                            <i class="fas fa-code-branch"></i>
-                        </div>
-                        <div>
-                            <h3>Open Source</h3>
-                            <p>Maintainer of 3 popular open source projects with 500+ stars</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <h2 class="card-title"><i class="fas fa-code"></i> Technologies & Skills</h2>
-                    <div class="skills-container">
-                        <span class="skill">JavaScript</span>
-                        <span class="skill">TypeScript</span>
-                        <span class="skill">React</span>
-                        <span class="skill">Node.js</span>
-                        <span class="skill">Python</span>
-                        <span class="skill">GraphQL</span>
-                        <span class="skill">AWS</span>
-                        <span class="skill">Docker</span>
-                        <span class="skill">Kubernetes</span>
-                        <span class="skill">PostgreSQL</span>
-                        <span class="skill">MongoDB</span>
-                        <span class="skill">Redis</span>
-                        <span class="skill">CI/CD</span>
-                        <span class="skill">Jest</span>
-                        <span class="skill">Cypress</span>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <h2 class="card-title"><i class="fas fa-heart"></i> Current Interests</h2>
-                    <p>I'm currently exploring and deepening my knowledge in:</p>
-                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
-                        <li>Web3 and Blockchain development</li>
-                        <li>Machine Learning with TensorFlow</li>
-                        <li>Serverless architecture patterns</li>
-                        <li>Design systems and component libraries</li>
-                    </ul>
-                    <p style="margin-top: 1rem;">Always open to collaborating on innovative projects!</p>
-                </div>
-            </div>
-            
-            <h2 style="text-align: center; margin: 3rem 0 2rem 0; color: #8a64d0; font-size: 2rem;">
-                <i class="fas fa-chart-line"></i> GitHub Stats
-            </h2>
-            
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-number">2,548</div>
-                    <div class="stat-label">Contributions</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">42</div>
-                    <div class="stat-label">Repositories</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">18</div>
-                    <div class="stat-label">Projects</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">1.2k</div>
-                    <div class="stat-label">Followers</div>
-                </div>
-            </div>
-            
-            <div class="footer">
-                <p>Last Updated: October 2023 | <span class="glow">Made with ❤️ and CSS</span></p>
-                <div style="margin-top: 1rem;">
-                    <span class="badge badge-primary">PRO</span>
-                    <span class="badge badge-secondary">DEV</span>
-                    <span class="badge badge-primary">GitHub</span>
-                    <span class="badge badge-secondary">Open Source</span>
-                </div>
-            </div>
-        </div>
-    </div>
+## 📊 **GitHub Analytics**
 
-    <script>
-        // Create animated particles
-        document.addEventListener('DOMContentLoaded', function() {
-            const particlesContainer = document.getElementById('particles');
-            const particleCount = 30;
-            
-            for (let i = 0; i < particleCount; i++) {
-                const particle = document.createElement('div');
-                particle.classList.add('particle');
-                
-                const size = Math.random() * 20 + 5;
-                particle.style.width = `${size}px`;
-                particle.style.height = `${size}px`;
-                
-                particle.style.left = `${Math.random() * 100}%`;
-                particle.style.top = `${Math.random() * 100}%`;
-                
-                particle.style.animationDuration = `${Math.random() * 15 + 10}s`;
-                particle.style.animationDelay = `${Math.random() * 5}s`;
-                particle.style.opacity = Math.random() * 0.5 + 0.1;
-                
-                particlesContainer.appendChild(particle);
-            }
-            
-            // Add typing effect for the tagline
-            const tagline = document.querySelector('.profile-tagline');
-            const originalText = tagline.textContent;
-            tagline.textContent = '';
-            
-            let i = 0;
-            function typeWriter() {
-                if (i < originalText.length) {
-                    tagline.textContent += originalText.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100);
-                }
-            }
-            
-            setTimeout(typeWriter, 2000);
-        });
-    </script>
-</body>
-</html>
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=THE-AFRO-GENTLEMAN&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117&title_color=6577ec&text_color=aab2ff&icon_color=8a64d0" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=THE-AFRO-GENTLEMAN&layout=compact&hide_border=true&bg_color=0d1117&title_color=6577ec&text_color=aab2ff" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=THE-AFRO-GENTLEMAN&theme=tokyonight&hide_border=true&background=0D1117&stroke=6577EC&ring=8A64D0&fire=6577EC&currStreakLabel=AAB2FF" alt="GitHub Streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=THE-AFRO-GENTLEMAN&bg_color=0d1117&color=aab2ff&line=6577ec&point=8a64d0&area=true&hide_border=true" />
+
+</div>
+
+---
+
+## 🎯 **Current Focus**
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((THE-AFRO-GENTLEMAN))
+    Learning
+      Web3 & Blockchain
+      Machine Learning
+      Cloud Architecture
+      Design Systems
+    Building
+      Project Management Tools
+      Open Source Libraries
+      UI/UX Components
+      API Services
+    Contributing
+      Open Source Projects
+      Developer Community
+      Knowledge Sharing
+      Mentoring
+```
+
+</div>
+
+---
+
+## 🤝 **Let's Connect!**
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6577ec,8a64d0&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=40&fontColor=ffffff&animation=twinkling" />
+
+**Always open to interesting conversations and collaboration opportunities!**
+
+[![GitHub followers](https://img.shields.io/github/followers/THE-AFRO-GENTLEMAN?style=social)](https://github.com/THE-AFRO-GENTLEMAN)
+[![GitHub stars](https://img.shields.io/github/stars/THE-AFRO-GENTLEMAN?style=social)](https://github.com/THE-AFRO-GENTLEMAN)
+
+*"The best way to predict the future is to create it."* 🚀
+
+</div>
